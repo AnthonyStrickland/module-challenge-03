@@ -34,7 +34,7 @@ function getRandomSymbol() {
   return symbols[Math.floor(Math.random() * symbols.length)]
 }
 
-let passwordOption = []
+var passwordOption = []
 
 var lower = confirm('Click "OK" for lowercase letters.')
   if (lower === true) {
@@ -64,9 +64,9 @@ var lower = confirm('Click "OK" for lowercase letters.')
 
 //return password
 
-let password = ""
-for (let i=0; i<pwLength; i++){
-  let randomPass=Math.floor(Math.random()*passwordOption.length)
+var password = ""
+for (var i=0; i<pwLength; i++){
+  var randomPass=Math.floor(Math.random()*passwordOption.length)
   password = password + passwordOption[randomPass]()
 }
 
