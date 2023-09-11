@@ -8,7 +8,7 @@ lower case letters, numbers, and symbols depending on if the user wants to use t
 
 ## Installation
 
-click the link to open app: https://github.com/AnthonyStrickland/module-challenge-02
+click the link to open app: https://anthonystrickland.github.io/module-challenge-03/
 
 ## Usage
 
